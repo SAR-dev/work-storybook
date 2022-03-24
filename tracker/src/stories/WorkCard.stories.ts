@@ -8,15 +8,19 @@ export default {
     component: WorkCardComponent,
     decorators: [componentWrapperDecorator((story) => `<div style="width: 420px; margin: 2rem">${story}</div>`)],
     argTypes: {
-        circleColor: {
-            options: ['gray', 'blue', 'red', 'pink', 'purple', 'yellow', 'green', 'indigo', 'teal', 'cyan'],
+        backgroundColor: {
+            options: ['gray', 'blue', 'red', 'pink', 'purple', 'green', 'indigo', 'teal', 'cyan'],
             control: { type: 'select' },
         },
-        backgroundColor: { control: 'color' },
+        badgeColor: {
+            options: ['gray', 'blue', 'red', 'pink', 'purple', 'green', 'indigo', 'teal', 'cyan'],
+            control: { type: 'select' },
+        },
         textColor: {
             options: ['black', 'white'],
             control: { type: 'select' },
         },
+        codeColor: { control: 'color' },
     },
 } as Meta;
 
@@ -26,5 +30,5 @@ const Template: Story<WorkCardComponent> = (args: WorkCardComponent) => ({
 
 export const BasicIconButton = Template.bind({});
 BasicIconButton.args = {
-    
+    badgeText: "きくや＿タスク"
 };
