@@ -8,19 +8,16 @@ export default {
     component: WorkCardComponent,
     decorators: [componentWrapperDecorator((story) => `<div style="width: 420px; margin: 2rem">${story}</div>`)],
     argTypes: {
-        backgroundColor: {
-            options: ['gray', 'blue', 'red', 'pink', 'purple', 'green', 'indigo', 'teal', 'cyan'],
+        spacing: {
+            options: ['spacing-5', 'spacing-10', 'spacing-15'],
             control: { type: 'select' },
         },
-        badgeColor: {
-            options: ['gray', 'blue', 'red', 'pink', 'purple', 'green', 'indigo', 'teal', 'cyan'],
+        theme: {
+            options: ['dark', 'light'],
             control: { type: 'select' },
         },
-        textColor: {
-            options: ['black', 'white'],
-            control: { type: 'select' },
-        },
-        codeColor: { control: 'color' },
+        badgeBackgroundColor: { control: 'color' },
+        badgeTextColor: { control: 'color' },
     },
 } as Meta;
 
@@ -28,7 +25,23 @@ const Template: Story<WorkCardComponent> = (args: WorkCardComponent) => ({
     props: args,
 });
 
-export const BasicIconButton = Template.bind({});
-BasicIconButton.args = {
-    badgeText: "きくや＿タスク"
+export const Default = Template.bind({});
+Default.args = {
+    badgeText: "きくや＿タスク",
+    theme: "dark",
+    spacing: "spacing-10"
+};
+
+export const Dark = Template.bind({});
+Dark.args = {
+    badgeText: "きくや＿タスク",
+    theme: "dark",
+    spacing: "spacing-10"
+};
+
+export const Light = Template.bind({});
+Light.args = {
+    badgeText: "きくや＿タスク",
+    theme: "light",
+    spacing: "spacing-10"
 };

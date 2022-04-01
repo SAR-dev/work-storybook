@@ -9,7 +9,7 @@
     "components": [
         {
             "name": "AppComponent",
-            "id": "component-AppComponent-5765a5fcee675a77c45cd556f8d469d45ca9cfad260b3b976efb097553ba5d8fb0ff63b84ebd19d3a2c7e1af1fc49acf84c80e2d47a0d38759fb65b562b5c4b8",
+            "id": "component-AppComponent-9b00c0628a1990ced428ea4cad7e5eb3c0138869cb583720a2d088fbb30c06097ea8923ac75b31ade8a58ca1094b11a7068222c34f9174424cdcfe099ed678a6",
             "file": "src/app/app.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -29,6 +29,16 @@
             "outputsClass": [],
             "propertiesClass": [
                 {
+                    "name": "data",
+                    "defaultValue": "[\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n  ]",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "[]",
+                    "optional": false,
+                    "description": "",
+                    "line": 11
+                },
+                {
                     "name": "title",
                     "defaultValue": "'tracker'",
                     "deprecated": false,
@@ -47,305 +57,38 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.css']\n})\nexport class AppComponent {\n  title = 'tracker';\n}\n",
+            "sourceCode": "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.css'],\n})\nexport class AppComponent {\n  title = 'tracker';\n\n  data = [\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n    {\n      badgeText: 'きくや＿タスク',\n      badgeColor: 'teal',\n      backgroundColor: 'zinc',\n      textColor: 'white',\n      codeText: 'ALO-4596',\n      codeColor: '#2dd4bf',\n    },\n  ];\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "",
+                    "data": ".custom div {\r\n    color: #fff;\r\n    margin-bottom: 5px;\r\n}\r\ninput {\r\n  font-family: inherit;\r\n  width: 100%;\r\n  font-size: 100%;\r\n  border: 0;\r\n  outline: 0;\r\n  color: #fff;\r\n  border-radius: 3px;\r\n  display: block;\r\n  padding: 5px 12px;\r\n  border: 1px solid rgba(0, 0, 0, 0.5);\r\n  background: rgba(0, 0, 0, 0.25);\r\n  font-size: 1rem;\r\n}\r\ninput::-moz-focus-inner {\r\n  border: 0;\r\n  padding: 0;\r\n}\r\n\r\n[placeholder]::-webkit-input-placeholder {\r\n  color: rgba(255, 255, 255, 0.8);\r\n}\r\n",
                     "styleUrl": "./app.component.css"
                 }
             ],
             "stylesData": "",
-            "templateData": "<app-navbar></app-navbar>\n<div class=\"flex\">\n  <app-sidebar></app-sidebar>\n  <div class=\"w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 p-5\" style=\"height: fit-content\">\n    <app-work-card  badgeText=\"きくや＿タスク\"></app-work-card>\n  </div>\n</div>\n"
+            "templateData": "<div class=\"container-fluid p-5\">\n  <div class=\"row mb-5\">\n    <div class=\"grid\">\n      <div class=\"custom\">\n        <div>カテゴリー</div>\n        <input type=\"text\" />\n      </div>\n      <div class=\"custom\">\n        <div>登録日</div>\n        <input type=\"text\" />\n      </div>\n      <div class=\"custom\">\n        <div>担当者</div>\n        <input type=\"text\" />\n      </div>\n      <div class=\"custom\">\n        <div>マイルストーン</div>\n        <input type=\"text\" />\n      </div>\n      <div class=\"custom\">\n        <div>優先度</div>\n        <input type=\"text\" />\n      </div>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div *ngFor=\"let item of data\" class=\"col-md-4 mb-3\">\n      <app-work-card></app-work-card>\n    </div>\n  </div>\n</div>\n"
         },
         {
-            "name": "IconButtonComponent",
-            "id": "component-IconButtonComponent-e5832d39caffd3153bbf56a993bc04283a2a172f759a67d5f6c02b9b311796e6f051ad8d659be7d758021abb9e9dc4aca1e3649010279e385abb8e9f0a45a869",
-            "file": "src/app/icon-button/icon-button.component.ts",
+            "name": "ButtonComponent",
+            "id": "component-ButtonComponent-e0b50422c525d98095b0ae57a104eece7fa5e222dfd07acbb1fbd4b166d6fc23cab365a965582afd2c29174317ad98bff9485c43bae9aac437ce1422274667cb",
+            "file": "src/app/button/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
             "inputs": [],
             "outputs": [],
             "providers": [],
-            "selector": "app-icon-button",
+            "selector": "app-button",
             "styleUrls": [
-                "./icon-button.component.css"
+                "./button.component.css"
             ],
             "styles": [],
             "templateUrl": [
-                "./icon-button.component.html"
+                "./button.component.html"
             ],
             "viewProviders": [],
             "inputsClass": [
                 {
-                    "name": "backgroundColor",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 13,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "circleColor",
-                    "defaultValue": "\"pink\"",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 10,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "count",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 22,
-                    "type": "number",
-                    "decorators": []
-                },
-                {
-                    "name": "text",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 19,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "textColor",
-                    "defaultValue": "\"white\"",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 16,
-                    "type": "string",
-                    "decorators": []
-                }
-            ],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [
-                {
-                    "name": "ngOnInit",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 26,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                }
-            ],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component, OnInit, Input } from '@angular/core';\n\n@Component({\n  selector: 'app-icon-button',\n  templateUrl: './icon-button.component.html',\n  styleUrls: ['./icon-button.component.css']\n})\nexport class IconButtonComponent implements OnInit {\n  @Input()\n  circleColor:string = \"pink\"\n\n  @Input()\n  backgroundColor?:string\n\n  @Input()\n  textColor:string = \"white\"\n\n  @Input()\n  text?:string\n\n  @Input()\n  count?:number\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
-            "assetsDirs": [],
-            "styleUrlsData": [
-                {
-                    "data": "/* 'gray', 'blue', 'red', 'pink', 'purple', 'yellow', 'green', 'indigo', 'teal', 'cyan' */\r\n.bg-gray-500 {\r\n    background-color: #6b7280;\r\n}\r\n.bg-blue-500 {\r\n    background-color: #0ea5e9;\r\n}\r\n.bg-red-500 {\r\n    background-color: #ef4444;\r\n}\r\n.bg-pink-500 {\r\n    background-color: #ec4899;\r\n}\r\n.bg-purple-500 {\r\n    background-color: #a855f7;\r\n}\r\n.bg-yellow-500 {\r\n    background-color: #f59e0b;\r\n}\r\n.bg-green-500 {\r\n    background-color: #22c55e;\r\n}\r\n.bg-indigo-500 {\r\n    background-color: #6366f1;\r\n}\r\n.bg-teal-500 {\r\n    background-color: #10b981;\r\n}\r\n.bg-cyan-500 {\r\n    background-color: #06b6d4;\r\n}",
-                    "styleUrl": "./icon-button.component.css"
-                }
-            ],
-            "stylesData": "",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 22
-            },
-            "implements": [
-                "OnInit"
-            ],
-            "templateData": "<button class=\"flex items-center p-5 hover:bg-gray-600 w-full\" [ngStyle]=\" {'background-color': backgroundColor} \">\n    <div class=\"h-4 w-4 rounded-full mr-2\" [ngClass]=\" 'bg-'+ circleColor +'-500' \"></div>\n    <p class=\"font-semibold tracking-widest\" [ngClass]=\" 'text-'+ textColor \">{{text}}</p>\n    <p class=\"ml-auto px-2 py-1 bg-gray-300 text-gray-700 rounded-lg text-xs\" *ngIf=\"count\">\n      {{count}}\n    </p>\n  </button>"
-        },
-        {
-            "name": "NavbarComponent",
-            "id": "component-NavbarComponent-e9eac896a013d3628e14d9973a95ed8b28d2581e5c3bec3c4c5e0e031707bab21532e806b4034ba69d5351d1c86bb0835a6fdb539497c1c012787084c1373ee1",
-            "file": "src/app/navbar/navbar.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-navbar",
-            "styleUrls": [
-                "./navbar.component.css"
-            ],
-            "styles": [],
-            "templateUrl": [
-                "./navbar.component.html"
-            ],
-            "viewProviders": [],
-            "inputsClass": [
-                {
-                    "name": "logoColor",
-                    "defaultValue": "'#d14f4f'",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 11,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "name",
-                    "defaultValue": "\"ALTAIR\"",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 14,
-                    "type": "string",
-                    "decorators": []
-                }
-            ],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [
-                {
-                    "name": "getTime",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "string",
-                    "typeParameters": [],
-                    "line": 16,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                },
-                {
-                    "name": "ngOnInit",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 28,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                }
-            ],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';\n\n@Component({\n  selector: 'app-navbar',\n  templateUrl: './navbar.component.html',\n  styleUrls: ['./navbar.component.css']\n})\nexport class NavbarComponent implements OnInit {\n\n  @Input()\n  logoColor: string = '#d14f4f'\n\n  @Input()\n  name: string = \"ALTAIR\"\n\n  getTime() {\n    var date = new Date();\n    var year = date.getFullYear();\n    var month = (date.getMonth() + 1).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});\n    var day = (date.getDate()).toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});\n\n    var formattedTime = `${year}年${month}月${day}日`\n    return formattedTime\n  }\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
-            "assetsDirs": [],
-            "styleUrlsData": [
-                {
-                    "data": "",
-                    "styleUrl": "./navbar.component.css"
-                }
-            ],
-            "stylesData": "",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 24
-            },
-            "implements": [
-                "OnInit"
-            ],
-            "templateData": "<div class=\"flex items-center p-5 border-b border-gray-300\">\n    <p class=\"mr-5 tracking-widest font-bold text-xl\" [ngStyle]=\"{'color': logoColor}\">{{name}}</p>\n    <p class=\"bg-gray-500 text-sm text-white px-3 py-1 rounded\">{{getTime()}}</p>\n    <div class=\"grid grid-cols-1 ml-auto\">\n      <div class=\"flex items-center space-x-2\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"16\"\n          height=\"16\"\n          fill=\"currentColor\"\n          class=\"bi bi-question-circle-fill\"\n          viewBox=\"0 0 16 16\"\n        >\n          <path\n            d=\"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z\"\n          />\n        </svg>\n        <p>ご利用ガイド</p>\n      </div>\n      <div class=\"flex items-center space-x-2\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"16\"\n          height=\"16\"\n          fill=\"currentColor\"\n          class=\"bi bi-calendar2-range\"\n          viewBox=\"0 0 16 16\"\n        >\n          <path\n            d=\"M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z\"\n          />\n          <path\n            d=\"M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM9 8a1 1 0 0 1 1-1h5v2h-5a1 1 0 0 1-1-1zm-8 2h4a1 1 0 1 1 0 2H1v-2z\"\n          />\n        </svg>\n        <p>日次業務画面へ</p>\n      </div>\n    </div>\n  </div>\n  "
-        },
-        {
-            "name": "SidebarComponent",
-            "id": "component-SidebarComponent-93f529605b70f649ca5d6860317667fa89176ab51041afa5cb46c55ab2ab0be64f502c86255728db9d6d879c4fd450da5de87338cd65fdd2a446149417a66cf2",
-            "file": "src/app/sidebar/sidebar.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-sidebar",
-            "styleUrls": [
-                "./sidebar.component.css"
-            ],
-            "styles": [],
-            "templateUrl": [
-                "./sidebar.component.html"
-            ],
-            "viewProviders": [],
-            "inputsClass": [],
-            "outputsClass": [],
-            "propertiesClass": [],
-            "methodsClass": [
-                {
-                    "name": "ngOnInit",
-                    "args": [],
-                    "optional": false,
-                    "returnType": "void",
-                    "typeParameters": [],
-                    "line": 12,
-                    "deprecated": false,
-                    "deprecationMessage": ""
-                }
-            ],
-            "deprecated": false,
-            "deprecationMessage": "",
-            "hostBindings": [],
-            "hostListeners": [],
-            "description": "",
-            "rawdescription": "\n",
-            "type": "component",
-            "sourceCode": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-sidebar',\n  templateUrl: './sidebar.component.html',\n  styleUrls: ['./sidebar.component.css']\n})\nexport class SidebarComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
-            "assetsDirs": [],
-            "styleUrlsData": [
-                {
-                    "data": "",
-                    "styleUrl": "./sidebar.component.css"
-                }
-            ],
-            "stylesData": "",
-            "constructorObj": {
-                "name": "constructor",
-                "description": "",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "args": [],
-                "line": 8
-            },
-            "implements": [
-                "OnInit"
-            ],
-            "templateData": "<div class=\"w-64 bg-gray-700 h-screen text-white\">\n  <div class=\"grid grid-cols-1\">\n    <app-icon-button circleColor=\"pink\" text=\"未対応\" [count]=\"2\"></app-icon-button>\n    <app-icon-button circleColor=\"blue\" text=\"処理中\"></app-icon-button>\n    <app-icon-button circleColor=\"teal\" text=\"処理済み\"></app-icon-button>\n    <app-icon-button circleColor=\"red\" text=\"受入\" [count]=\"1\"></app-icon-button>\n    <app-icon-button circleColor=\"yellow\" text=\"受入済\"></app-icon-button>\n    <app-icon-button circleColor=\"cyan\" text=\"完了\"></app-icon-button>\n  </div>\n</div>\n"
-        },
-        {
-            "name": "WorkCardComponent",
-            "id": "component-WorkCardComponent-e8ee7f614b3f7b273727ac34e53960a6e62e1aebf1b6d5ef035089c34cde17b9731b92aec6c6b6d69e263f44f72a9d5cdbab566c947e77f15ee52c187ba24752",
-            "file": "src/app/work-card/work-card.component.ts",
-            "encapsulation": [],
-            "entryComponents": [],
-            "inputs": [],
-            "outputs": [],
-            "providers": [],
-            "selector": "app-work-card",
-            "styleUrls": [
-                "./work-card.component.css"
-            ],
-            "styles": [],
-            "templateUrl": [
-                "./work-card.component.html"
-            ],
-            "viewProviders": [],
-            "inputsClass": [
-                {
-                    "name": "backgroundColor",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 11,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "badgeColor",
-                    "defaultValue": "\"gray\"",
+                    "name": "borderColor",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "line": 17,
@@ -353,7 +96,26 @@
                     "decorators": []
                 },
                 {
-                    "name": "badgeText",
+                    "name": "isLoading",
+                    "defaultValue": "false",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 23,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "radius",
+                    "defaultValue": "\"rounded-md\"",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 20,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "text",
+                    "defaultValue": "\"Simple Button\"",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "line": 14,
@@ -361,21 +123,12 @@
                     "decorators": []
                 },
                 {
-                    "name": "codeColor",
-                    "defaultValue": "\"#7e22ce\"",
+                    "name": "variant",
+                    "defaultValue": "\"btn-primary\"",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 23,
-                    "type": "string",
-                    "decorators": []
-                },
-                {
-                    "name": "textColor",
-                    "defaultValue": "\"black\"",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "line": 20,
-                    "type": "string",
+                    "line": 11,
+                    "type": "\"btn-primary\" | \"btn-secondary\" | \"btn-success\" | \"btn-danger\" | \"btn-info\"",
                     "decorators": []
                 }
             ],
@@ -400,12 +153,12 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component, OnInit, Input } from '@angular/core';\n\n@Component({\n  selector: 'app-work-card',\n  templateUrl: './work-card.component.html',\n  styleUrls: ['./work-card.component.css']\n})\nexport class WorkCardComponent implements OnInit {\n\n  @Input()\n  backgroundColor?: string\n\n  @Input()\n  badgeText?: string\n\n  @Input()\n  badgeColor?: string = \"gray\"\n\n  @Input()\n  textColor: string = \"black\"\n\n  @Input()\n  codeColor: string = \"#7e22ce\"\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "sourceCode": "import { Component, OnInit, Input } from '@angular/core';\n\n@Component({\n  selector: 'app-button',\n  templateUrl: './button.component.html',\n  styleUrls: ['./button.component.css']\n})\nexport class ButtonComponent implements OnInit {\n\n  @Input()\n  variant?: \"btn-primary\" | \"btn-secondary\" | \"btn-success\" | \"btn-danger\" | \"btn-info\" = \"btn-primary\"\n\n  @Input()\n  text?:string = \"Simple Button\"\n\n  @Input()\n  borderColor?:string\n\n  @Input()\n  radius?: string = \"rounded-md\"\n\n  @Input()\n  isLoading?: boolean = false;\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
             "assetsDirs": [],
             "styleUrlsData": [
                 {
-                    "data": "/* 'gray', 'blue', 'red', 'pink', 'purple', 'yellow', 'green', 'indigo', 'teal', 'cyan' */\r\n.text-xxs {\r\n    font-size: 10px;\r\n}\r\n.text-black {\r\n    color: #1f2937;\r\n}\r\n.text-white {\r\n    color: #e2e8f0;\r\n}\r\n.bg-gray-700 {\r\n    background-color: #374151;\r\n}\r\n.bg-blue-700 {\r\n    background-color: #0369a1;\r\n}\r\n.bg-red-700 {\r\n    background-color: #b91c1c;\r\n}\r\n.bg-pink-700 {\r\n    background-color: #be185d;\r\n}\r\n.bg-purple-700 {\r\n    background-color: #7e22ce;\r\n}\r\n.bg-yellow-700 {\r\n    background-color: #c2410c;\r\n}\r\n.bg-green-700 {\r\n    background-color: #15803d;\r\n}\r\n.bg-indigo-700 {\r\n    background-color: #4338ca;\r\n}\r\n.bg-teal-700 {\r\n    background-color: #0f766e;\r\n}\r\n.bg-cyan-700 {\r\n    background-color: #0e7490;\r\n}",
-                    "styleUrl": "./work-card.component.css"
+                    "data": ".rounded-md {\r\n  border-radius: 0.375rem;\r\n}\r\n.rounded-lg {\r\n  border-radius: 0.75rem;\r\n}\r\n.rounded-full {\r\n  border-radius: 9999px;\r\n}\r\n\r\n@keyframes spin {\r\n  from {\r\n    transform: rotate(0deg);\r\n  }\r\n  to {\r\n    transform: rotate(360deg);\r\n  }\r\n}\r\n.loading {\r\n  color: white;\r\n  height: 1rem;\r\n  width: 1rem;\r\n  margin-right: .5rem;\r\n  animation: spin 1s linear infinite;\r\n}\r\n\r\n",
+                    "styleUrl": "./button.component.css"
                 }
             ],
             "stylesData": "",
@@ -420,19 +173,137 @@
             "implements": [
                 "OnInit"
             ],
-            "templateData": "<div class=\"border border-gray-300 space-y-3 rounded p-5 cursor-pointer\" [ngClass]=\" 'bg-'+ backgroundColor +'-700' \">\n  <div class=\"flex items-center\">\n    <p class=\"mr-3 px-2 py-0.5 rounded-full text-white text-xxs\" [ngClass]=\" 'bg-'+ badgeColor +'-700' \" *ngIf=\"badgeText\">\n      {{badgeText}}\n    </p>\n    <p class=\"text-sm font-bold\" [ngStyle]=\" {'color': codeColor} \">ALO-4596</p>\n    <div class=\"ml-auto space-x-2\" [ngClass]=\" 'text-'+ textColor \">\n      <button class=\"hover:text-blue-700\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"16\"\n          height=\"16\"\n          fill=\"currentColor\"\n          class=\"bi bi-clipboard\"\n          viewBox=\"0 0 16 16\"\n        >\n          <path\n            d=\"M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z\"\n          />\n          <path\n            d=\"M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z\"\n          />\n        </svg>\n      </button>\n      <button class=\"hover:text-blue-700\">\n        <svg\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"16\"\n          height=\"16\"\n          fill=\"currentColor\"\n          class=\"bi bi-share\"\n          viewBox=\"0 0 16 16\"\n        >\n          <path\n            d=\"M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z\"\n          />\n        </svg>\n      </button>\n    </div>\n  </div>\n  <div class=\"text-sm\" [ngClass]=\" 'text-'+ textColor \">\n    LifeKarte初期設定画面から、店舗画像とロゴを削除できるようにする\n  </div>\n  <div class=\"flex items-center\" [ngClass]=\" 'text-'+ textColor \">\n    <img\n      class=\"mr-2 bg-gray-200/50 border border-gray-300 rounded-full h-8 p-1\"\n      src=\"https://avatars.dicebear.com/api/micah/:seed.svg\"\n      alt=\"\"\n    />\n    <p class=\"text-sm\">Sayed Rafi</p>\n    <div class=\"text-sm flex items-center space-x-2 ml-auto\">\n      <svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        width=\"16\"\n        height=\"16\"\n        fill=\"currentColor\"\n        class=\"bi bi-calendar-check\"\n        viewBox=\"0 0 16 16\"\n      >\n        <path\n          d=\"M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z\"\n        />\n        <path\n          d=\"M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z\"\n        />\n      </svg>\n      <p>2022年03月23日</p>\n    </div>\n  </div>\n</div>\n"
+            "templateData": "<button\n  type=\"button\"\n  class=\"btn\"\n  [ngClass]=\"[variant, radius]\"\n  style=\"border-width: 4px; border-style: solid; display: flex; align-items: center;\"\n  [ngStyle]=\"{ 'border-color': borderColor }\"\n>\n  <svg\n    class=\"loading\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    *ngIf=\"isLoading\"\n  >\n    <circle\n      class=\"opacity-25\"\n      cx=\"12\"\n      cy=\"12\"\n      r=\"10\"\n      stroke=\"currentColor\"\n      stroke-width=\"4\"\n    ></circle>\n    <path\n      class=\"opacity-75\"\n      fill=\"currentColor\"\n      d=\"M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z\"\n    ></path>\n  </svg>\n  {{ text }}\n</button>\n"
+        },
+        {
+            "name": "WorkCardComponent",
+            "id": "component-WorkCardComponent-b4e70cdb7128c8b14286937849bc8a142ddb41e70242a19f6cab3e9c07f4c96ca70fe1a84beb423ec008efd7d4e5d4e51805483677f5b27cfaf9ca0ab024c7cb",
+            "file": "src/app/work-card/work-card.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "app-work-card",
+            "styleUrls": [
+                "./work-card.component.css"
+            ],
+            "styles": [],
+            "templateUrl": [
+                "./work-card.component.html"
+            ],
+            "viewProviders": [],
+            "inputsClass": [
+                {
+                    "name": "badgeBackgroundColor",
+                    "defaultValue": "\"#fed85d\"",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 11,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "badgeText",
+                    "defaultValue": "\"きくや＿タスク\"",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 17,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "badgeTextColor",
+                    "defaultValue": "\"#000000\"",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 14,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "spacing",
+                    "defaultValue": "\"spacing-10\"",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 23,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "theme",
+                    "defaultValue": "\"dark\"",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 20,
+                    "type": "string",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [
+                {
+                    "name": "getClass",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "string",
+                    "typeParameters": [],
+                    "line": 26,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                },
+                {
+                    "name": "ngOnInit",
+                    "args": [],
+                    "optional": false,
+                    "returnType": "void",
+                    "typeParameters": [],
+                    "line": 32,
+                    "deprecated": false,
+                    "deprecationMessage": ""
+                }
+            ],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { Component, OnInit, Input } from '@angular/core';\n\n@Component({\n  selector: 'app-work-card',\n  templateUrl: './work-card.component.html',\n  styleUrls: ['./work-card.component.css']\n})\nexport class WorkCardComponent implements OnInit {\n\n  @Input()\n  badgeBackgroundColor?: string = \"#fed85d\"\n\n  @Input()\n  badgeTextColor?: string = \"#000000\"\n\n  @Input()\n  badgeText?: string = \"きくや＿タスク\"\n\n  @Input()\n  theme: string = \"dark\"\n\n  @Input()\n  spacing: string = \"spacing-10\"\n\n\n  getClass(){\n    return this.theme + \" \" + this.spacing\n  }\n\n  constructor() { }\n\n  ngOnInit(): void {\n  }\n\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": [
+                {
+                    "data": ".card {\r\n  border: none;\r\n  border-radius: 10px;\r\n}\r\n\r\n.dark {\r\n  background-color: rgb(2, 2, 2);\r\n  color: #fff;\r\n}\r\n\r\n.light {\r\n  background-color: #fff;\r\n  color: #000;\r\n}\r\n\r\n.c-details span {\r\n  font-weight: 300;\r\n  font-size: 13px;\r\n}\r\n\r\n.icon {\r\n  width: 35px;\r\n  height: 35px;\r\n  background-color: rgb(36, 36, 36);\r\n  border-radius: 5px;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  font-size: 39px;\r\n}\r\n\r\n.user-details div {\r\n  font-size: 0.75rem;\r\n}\r\n.user-details span {\r\n  font-size: 0.75rem;\r\n}\r\n\r\n.badge {\r\n  /* color: #3a3a3a; */\r\n  font-size: 0.65rem;\r\n  padding-left: 12px;\r\n  padding-right: 12px;\r\n  height: 20px;\r\n  border-radius: 5px;\r\n  display: flex;\r\n  /* background-color: #fed85d; */\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.heading {\r\n  font-size: 1rem;\r\n}\r\n\r\n.details {\r\n  font-size: 0.75rem;\r\n}\r\n\r\n.dark .details-link {\r\n  color: #ccc;\r\n  text-decoration: none;\r\n  margin-right: 10px;\r\n}\r\n\r\n.dark .details-link:hover {\r\n  color: #fff;\r\n}\r\n\r\n.light .details-link {\r\n  color: rgb(63, 63, 63);\r\n  text-decoration: none;\r\n  margin-right: 10px;\r\n}\r\n\r\n.light .details-link:hover {\r\n  color: rgb(2, 2, 2);\r\n}\r\n\r\n.simplegrid {\r\n  grid-template-columns: repeat(1, minmax(0, 1fr));\r\n  display: grid;\r\n}\r\n\r\n.spacing-5 {\r\n  gap: 8px;\r\n}\r\n\r\n.spacing-10 {\r\n  gap: 16px;\r\n}\r\n\r\n.spacing-15 {\r\n  gap: 24px;\r\n}",
+                    "styleUrl": "./work-card.component.css"
+                }
+            ],
+            "stylesData": "",
+            "constructorObj": {
+                "name": "constructor",
+                "description": "",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "args": [],
+                "line": 28
+            },
+            "implements": [
+                "OnInit"
+            ],
+            "templateData": "<div class=\"card p-3 simplegrid\" [ngClass]=\"getClass()\">\n  <div class=\"d-flex justify-content-between\">\n    <div class=\"d-flex flex-row align-items-center\">\n      <div class=\"icon\">\n        <img\n          src=\"https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg\"\n        />\n      </div>\n      <div class=\"ms-2 user-details\">\n        <div class=\"mb-0\">Sayed Rafi / サイド ラフィ</div>\n        <div>2022-03-08 | 12:25:42</div>\n      </div>\n    </div>\n    <div\n      class=\"badge\"\n      [ngStyle]=\"{\n        'background-color': badgeBackgroundColor,\n        color: badgeTextColor\n      }\"\n    >\n      <span>{{ badgeText }}</span>\n    </div>\n  </div>\n  <div>\n    <h3 class=\"heading\">\n      マイサロン会員詳細画面の中に購入履歴を確認できる部分を作成する\n    </h3>\n  </div>\n  <div>\n    <div class=\"row details\">\n      <a class=\"col details-link\" href=\"#\">担当者: Sayed Rafi (ラフィ)</a>\n      <a class=\"col details-link\" href=\"#\">マイルストーン: 2022.4</a>\n    </div>\n    <div class=\"row details\">\n      <a class=\"col details-link\" href=\"#\">優先度: 中</a>\n      <a class=\"col details-link\" href=\"#\">Code: ALO-4953</a>\n    </div>\n  </div>\n</div>\n"
         }
     ],
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-f945370cf43f60723bee18ef81f32a210511d58d29f8053c087784fa112881a9cc524e16199cd0e381d73d68b5b50bedd6b28ffd8c740be1cb23732833fbf909",
+            "id": "module-AppModule-a1043298e65127acf9f02394c22061233e54670d564563f5908473481711f799dc1bdee421f65983cd2840ac406e6ed2eef30f513dc8cb77365ee61770e31310",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { NavbarComponent } from './navbar/navbar.component';\nimport { SidebarComponent } from './sidebar/sidebar.component';\nimport { WorkCardComponent } from './work-card/work-card.component';\nimport { IconButtonComponent } from './icon-button/icon-button.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    NavbarComponent,\n    SidebarComponent,\n    WorkCardComponent,\n    IconButtonComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
+            "sourceCode": "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { WorkCardComponent } from './work-card/work-card.component';\nimport { ButtonComponent } from './button/button.component';\n\n@NgModule({\n  declarations: [\n    AppComponent,\n    WorkCardComponent,\n    ButtonComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n",
             "children": [
                 {
                     "type": "providers",
@@ -445,13 +316,7 @@
                             "name": "AppComponent"
                         },
                         {
-                            "name": "IconButtonComponent"
-                        },
-                        {
-                            "name": "NavbarComponent"
-                        },
-                        {
-                            "name": "SidebarComponent"
+                            "name": "ButtonComponent"
                         },
                         {
                             "name": "WorkCardComponent"
@@ -524,17 +389,17 @@
     "miscellaneous": {
         "variables": [
             {
-                "name": "BasicIconButton",
+                "name": "context",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/IconButton.stories.ts",
+                "file": "src/test.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
-                "defaultValue": "Template.bind({})"
+                "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
             },
             {
-                "name": "BasicIconButton",
+                "name": "Dark",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
                 "file": "src/stories/WorkCard.stories.ts",
@@ -544,24 +409,24 @@
                 "defaultValue": "Template.bind({})"
             },
             {
-                "name": "BasicNavbar",
+                "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/Navbar.stories.ts",
+                "file": "src/stories/Button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "() => ({\r\n    props: {\r\n        text: \"Default Button\",\r\n        variant: 'btn-primary',\r\n        isLoading: false,\r\n        radius: \"rounded-lg\"\r\n    },\r\n})"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/WorkCard.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "",
                 "defaultValue": "Template.bind({})"
-            },
-            {
-                "name": "context",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/test.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "",
-                "defaultValue": "require.context('./', true, /\\.spec\\.ts$/)"
             },
             {
                 "name": "environment",
@@ -584,6 +449,16 @@
                 "defaultValue": "{\n  production: true\n}"
             },
             {
+                "name": "Light",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "src/stories/WorkCard.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "",
+                "defaultValue": "Template.bind({})"
+            },
+            {
                 "name": "require",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -593,14 +468,14 @@
                 "type": "literal type"
             },
             {
-                "name": "Template",
+                "name": "Success",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "src/stories/IconButton.stories.ts",
+                "file": "src/stories/Button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
-                "type": "Story<IconButtonComponent>",
-                "defaultValue": "(args: IconButtonComponent) => ({\r\n    props: args,\r\n})"
+                "type": "Story",
+                "defaultValue": "() => ({\r\n    props: {\r\n        text: \"Success Button\",\r\n        variant: 'btn-success',\r\n        isLoading: false,\r\n        radius: \"rounded-lg\"\r\n    },\r\n})"
             },
             {
                 "name": "Template",
@@ -611,88 +486,12 @@
                 "deprecationMessage": "",
                 "type": "Story<WorkCardComponent>",
                 "defaultValue": "(args: WorkCardComponent) => ({\r\n    props: args,\r\n})"
-            },
-            {
-                "name": "Template",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
-                "file": "src/stories/Navbar.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Story<NavbarComponent>",
-                "defaultValue": "(args: NavbarComponent) => ({\r\n    props: args,\r\n})"
             }
         ],
         "functions": [],
         "typealiases": [],
         "enumerations": [],
         "groupedVariables": {
-            "src/stories/IconButton.stories.ts": [
-                {
-                    "name": "BasicIconButton",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/IconButton.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/IconButton.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<IconButtonComponent>",
-                    "defaultValue": "(args: IconButtonComponent) => ({\r\n    props: args,\r\n})"
-                }
-            ],
-            "src/stories/WorkCard.stories.ts": [
-                {
-                    "name": "BasicIconButton",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/WorkCard.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/WorkCard.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<WorkCardComponent>",
-                    "defaultValue": "(args: WorkCardComponent) => ({\r\n    props: args,\r\n})"
-                }
-            ],
-            "src/stories/Navbar.stories.ts": [
-                {
-                    "name": "BasicNavbar",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/Navbar.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "",
-                    "defaultValue": "Template.bind({})"
-                },
-                {
-                    "name": "Template",
-                    "ctype": "miscellaneous",
-                    "subtype": "variable",
-                    "file": "src/stories/Navbar.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "type": "Story<NavbarComponent>",
-                    "defaultValue": "(args: NavbarComponent) => ({\r\n    props: args,\r\n})"
-                }
-            ],
             "src/test.ts": [
                 {
                     "name": "context",
@@ -712,6 +511,70 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "literal type"
+                }
+            ],
+            "src/stories/WorkCard.stories.ts": [
+                {
+                    "name": "Dark",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/WorkCard.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/WorkCard.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Light",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/WorkCard.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "",
+                    "defaultValue": "Template.bind({})"
+                },
+                {
+                    "name": "Template",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/WorkCard.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story<WorkCardComponent>",
+                    "defaultValue": "(args: WorkCardComponent) => ({\r\n    props: args,\r\n})"
+                }
+            ],
+            "src/stories/Button.stories.ts": [
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "() => ({\r\n    props: {\r\n        text: \"Default Button\",\r\n        variant: 'btn-primary',\r\n        isLoading: false,\r\n        radius: \"rounded-lg\"\r\n    },\r\n})"
+                },
+                {
+                    "name": "Success",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "src/stories/Button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "() => ({\r\n    props: {\r\n        text: \"Success Button\",\r\n        variant: 'btn-success',\r\n        isLoading: false,\r\n        radius: \"rounded-lg\"\r\n    },\r\n})"
                 }
             ],
             "src/environments/environment.ts": [
@@ -767,34 +630,16 @@
                 "linktype": "component",
                 "name": "AppComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/2",
+                "coverageCount": "0/3",
                 "status": "low"
             },
             {
-                "filePath": "src/app/icon-button/icon-button.component.ts",
+                "filePath": "src/app/button/button.component.ts",
                 "type": "component",
                 "linktype": "component",
-                "name": "IconButtonComponent",
+                "name": "ButtonComponent",
                 "coveragePercent": 0,
                 "coverageCount": "0/8",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/navbar/navbar.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "NavbarComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/6",
-                "status": "low"
-            },
-            {
-                "filePath": "src/app/sidebar/sidebar.component.ts",
-                "type": "component",
-                "linktype": "component",
-                "name": "SidebarComponent",
-                "coveragePercent": 0,
-                "coverageCount": "0/3",
                 "status": "low"
             },
             {
@@ -803,7 +648,7 @@
                 "linktype": "component",
                 "name": "WorkCardComponent",
                 "coveragePercent": 0,
-                "coverageCount": "0/8",
+                "coverageCount": "0/9",
                 "status": "low"
             },
             {
@@ -827,41 +672,21 @@
                 "status": "low"
             },
             {
-                "filePath": "src/stories/IconButton.stories.ts",
+                "filePath": "src/stories/Button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "BasicIconButton",
+                "name": "Default",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
             },
             {
-                "filePath": "src/stories/IconButton.stories.ts",
+                "filePath": "src/stories/Button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "Template",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Navbar.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "BasicNavbar",
-                "coveragePercent": 0,
-                "coverageCount": "0/1",
-                "status": "low"
-            },
-            {
-                "filePath": "src/stories/Navbar.stories.ts",
-                "type": "variable",
-                "linktype": "miscellaneous",
-                "linksubtype": "variable",
-                "name": "Template",
+                "name": "Success",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"
@@ -871,7 +696,27 @@
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
-                "name": "BasicIconButton",
+                "name": "Dark",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/WorkCard.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/WorkCard.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Light",
                 "coveragePercent": 0,
                 "coverageCount": "0/1",
                 "status": "low"

@@ -3,18 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
 import { WorkCardComponent } from './work-card/work-card.component';
-import { IconButtonComponent } from './icon-button/icon-button.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    SidebarComponent,
     WorkCardComponent,
-    IconButtonComponent
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

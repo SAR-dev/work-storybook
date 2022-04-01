@@ -8,19 +8,24 @@ import { Component, OnInit, Input } from '@angular/core';
 export class WorkCardComponent implements OnInit {
 
   @Input()
-  backgroundColor?: string
+  badgeBackgroundColor?: string = "#fed85d"
 
   @Input()
-  badgeText?: string
+  badgeTextColor?: string = "#000000"
 
   @Input()
-  badgeColor?: string = "gray"
+  badgeText?: string = "きくや＿タスク"
 
   @Input()
-  textColor: string = "black"
+  theme: string = "dark"
 
   @Input()
-  codeColor: string = "#7e22ce"
+  spacing: string = "spacing-10"
+
+
+  getClass(){
+    return this.theme + " " + this.spacing
+  }
 
   constructor() { }
 

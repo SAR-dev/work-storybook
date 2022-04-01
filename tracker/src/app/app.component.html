@@ -1,7 +1,31 @@
-<app-navbar></app-navbar>
-<div class="flex">
-  <app-sidebar></app-sidebar>
-  <div class="w-full grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 p-5" style="height: fit-content">
-    <app-work-card  badgeText="きくや＿タスク"></app-work-card>
+<div class="container-fluid p-5">
+  <div class="row mb-5">
+    <div class="grid">
+      <div class="custom">
+        <div>カテゴリー</div>
+        <input type="text" />
+      </div>
+      <div class="custom">
+        <div>登録日</div>
+        <input type="text" />
+      </div>
+      <div class="custom">
+        <div>担当者</div>
+        <input type="text" />
+      </div>
+      <div class="custom">
+        <div>マイルストーン</div>
+        <input type="text" />
+      </div>
+      <div class="custom">
+        <div>優先度</div>
+        <input type="text" />
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngFor="let item of data" class="col-md-4 mb-3">
+      <app-work-card></app-work-card>
+    </div>
   </div>
 </div>

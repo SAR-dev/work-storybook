@@ -1,70 +1,39 @@
-<div class="border border-gray-300 space-y-3 rounded p-5 cursor-pointer" [ngClass]=" 'bg-'+ backgroundColor +'-700' ">
-  <div class="flex items-center">
-    <p class="mr-3 px-2 py-0.5 rounded-full text-white text-xxs" [ngClass]=" 'bg-'+ badgeColor +'-700' " *ngIf="badgeText">
-      {{badgeText}}
-    </p>
-    <p class="text-sm font-bold" [ngStyle]=" {'color': codeColor} ">ALO-4596</p>
-    <div class="ml-auto space-x-2" [ngClass]=" 'text-'+ textColor ">
-      <button class="hover:text-blue-700">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-clipboard"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
-          />
-          <path
-            d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
-          />
-        </svg>
-      </button>
-      <button class="hover:text-blue-700">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          class="bi bi-share"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"
-          />
-        </svg>
-      </button>
+<div class="card p-3 simplegrid" [ngClass]="getClass()">
+  <div class="d-flex justify-content-between">
+    <div class="d-flex flex-row align-items-center">
+      <div class="icon">
+        <img
+          src="https://avatars.dicebear.com/api/adventurer/your-custom-seed.svg"
+        />
+      </div>
+      <div class="ms-2 user-details">
+        <div class="mb-0">Sayed Rafi / サイド ラフィ</div>
+        <div>2022-03-08 | 12:25:42</div>
+      </div>
+    </div>
+    <div
+      class="badge"
+      [ngStyle]="{
+        'background-color': badgeBackgroundColor,
+        color: badgeTextColor
+      }"
+    >
+      <span>{{ badgeText }}</span>
     </div>
   </div>
-  <div class="text-sm" [ngClass]=" 'text-'+ textColor ">
-    LifeKarte初期設定画面から、店舗画像とロゴを削除できるようにする
+  <div>
+    <h3 class="heading">
+      マイサロン会員詳細画面の中に購入履歴を確認できる部分を作成する
+    </h3>
   </div>
-  <div class="flex items-center" [ngClass]=" 'text-'+ textColor ">
-    <img
-      class="mr-2 bg-gray-200/50 border border-gray-300 rounded-full h-8 p-1"
-      src="https://avatars.dicebear.com/api/micah/:seed.svg"
-      alt=""
-    />
-    <p class="text-sm">Sayed Rafi</p>
-    <div class="text-sm flex items-center space-x-2 ml-auto">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        class="bi bi-calendar-check"
-        viewBox="0 0 16 16"
-      >
-        <path
-          d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"
-        />
-        <path
-          d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
-        />
-      </svg>
-      <p>2022年03月23日</p>
+  <div>
+    <div class="row details">
+      <a class="col details-link" href="#">担当者: Sayed Rafi (ラフィ)</a>
+      <a class="col details-link" href="#">マイルストーン: 2022.4</a>
+    </div>
+    <div class="row details">
+      <a class="col details-link" href="#">優先度: 中</a>
+      <a class="col details-link" href="#">Code: ALO-4953</a>
     </div>
   </div>
 </div>
